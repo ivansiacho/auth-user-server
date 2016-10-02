@@ -4,7 +4,9 @@ Simple Auth server, for signup and singin purposes
 Clone this repository and then `npm install`
 if you have already installed mongodb just run `mongod` into you db folder
 
-Once it has already, run `node index` for start the node server 
+Once it has already, create a `config.js` who must has the secret key of your server in the root folder
+For example `module.exports = {secret: '*****'}` where '*' are your secret key
+When the config.js file has been created run `node index` for start the node server 
 if you need to make many changes just run `npm run dev` for start this server with a watch listener.
 So you don't need stop and restart your server for every change.
 
