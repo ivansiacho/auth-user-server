@@ -2,7 +2,7 @@
 Simple Auth server, for signup and singin purposes
 
 Clone this repository and then `npm install`
-if you have already installed mongodb just run `mongodb` into you db folder
+if you have already installed mongodb just run `mongod` into you db folder
 
 Once it has already, run `node index` for start the node server 
 if you need to make many changes just run `node run dev` for start this server with a watch listener.
