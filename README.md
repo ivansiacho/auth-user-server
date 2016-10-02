@@ -5,7 +5,7 @@ Clone this repository and then `npm install`
 if you have already installed mongodb just run `mongod` into you db folder
 
 Once it has already, run `node index` for start the node server 
-if you need to make many changes just run `node run dev` for start this server with a watch listener.
+if you need to make many changes just run `npm run dev` for start this server with a watch listener.
 So you don't need stop and restart your server for every change.
 
 Your server will running on 3090 port
